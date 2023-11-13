@@ -40,5 +40,13 @@
     <color name="game_cell_background_1024">#01E5E0</color>
     <color name="game_cell_foreground_2048">#F8F6F2</color>
     <color name="game_cell_background_2048">#019A55</color>
+    <!-- Calculator -->
+    <color name="calc_layout_background">#202020</color>
+    <color name="calc_text">#FEFEFE</color>
+    <color name="calc_expression_text">#FFFF00</color>
+    <color name="calc_btn_func">#323232</color>
+    <color name="calc_btn_digit">#3B3B3B</color>
+    <color name="calc_btn_equal">#4CC1FE</color>
+    <color name="calc_btn_equal_text">#215570</color>
 
 </resources>

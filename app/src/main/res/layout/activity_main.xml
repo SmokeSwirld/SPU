@@ -9,6 +9,7 @@
 
     <Button
         android:id="@+id/main_btn_game"
+        style="@style/main_btn_game"
         android:layout_width="362dp"
         android:layout_height="85dp"
         android:text="@string/main_btn_game"
@@ -21,6 +22,7 @@
 
     <Button
         android:id="@+id/main_btn_chat"
+        style="@style/main_btn_game"
         android:layout_width="362dp"
         android:layout_height="85dp"
         android:text="@string/main_btn_chat"
@@ -30,4 +32,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.19" />
+
+    <Button
+        android:id="@+id/main_button_calc"
+        style="@style/main_btn_game"
+        android:layout_width="362dp"
+        android:layout_height="85dp"
+        android:text="@string/main_button_calc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391" />
 </androidx.constraintlayout.widget.ConstraintLayout>

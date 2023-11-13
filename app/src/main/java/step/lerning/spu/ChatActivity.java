@@ -53,6 +53,8 @@ public class ChatActivity extends AppCompatActivity {
     private Handler handler ;
     private MediaPlayer spawnSound ;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -121,6 +123,7 @@ public class ChatActivity extends AppCompatActivity {
         }
         final ChatMessage chatMessage = new ChatMessage();
         chatMessage.setAuthor( nik );
+
         chatMessage.setText( message );
         spawnSound.start() ;
         new Thread( () -> postChatMessage(chatMessage) ).start();
@@ -280,7 +283,8 @@ public class ChatActivity extends AppCompatActivity {
         messageLayout.addView( textView ) ;
 
         textView = new TextView( this ) ;
-        textView.setText( chatMessage.getText() ) ;
+        textView.setText( chatMessage.getText()
+                 ) ;
         messageLayout.addView( textView ) ;
 
         return messageLayout ;
